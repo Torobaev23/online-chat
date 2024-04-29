@@ -58,7 +58,7 @@ const Chat = () => {
     const onEmojiClick = ({ emoji }) => setMessage(`${message} ${emoji}`);
 
     return (
-        <div className={styles.wrap}>
+        <div className={styles.wrap }>
             <div className={styles.header}>
                 <div className={styles.title}>{params.room}</div>
                 <div className={styles.users} > Количество пользователей в комнате: {users}</div>

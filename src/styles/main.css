@@ -56,11 +56,14 @@ li {
     width: 100%;
     margin: 0 auto;
     min-height: 100vh;
-    position: fixed;
+    position: relative; /* Изменение позиционирования */
     overflow-y: auto;
     left: 50%;
     transform: translateX(-50%);
 }
+
+
+
 
 .enter {
     padding-top: 20px;
@@ -96,3 +99,10 @@ li {
     }
 
 }
+
+@media screen and (max-width: 320px) {
+    .container {
+        position: relative;
+    }
+}
+
